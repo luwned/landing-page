@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/variables.css">
+    <link rel="stylesheet" href="/assets/css/classes.css">
+    <link rel="stylesheet" href="/assets/css/elements.css">
+    <link rel="stylesheet" href="/assets/css/menu.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close-menu"> </label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;">
+                <a href="#home"></a>LOGO
+            </h1>
+
+
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;"> 
+                    <li><a href="#intro">intro</a></li>
+                    <li><a href="#grid-one">grid-one</a></li>
+                    <li><a href="#gallery">gallery</a></li>
+                    <li><a href="#grid-two">grid-two</a></li>
+                    <li><a href="#pricing">pricing</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>January brings us firefox 85</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ducimus quisquam numquam quasi
+                    molestiae optio. Ratione excepturi tempora totam, ipsam, dolores voluptas et nisi labore magnam
+                    suscipit quaerat, quisquam eos!</p>
+            </div>
+
+            <div class="intro-img">
+                <img src="/assets/img/javascript-not-optimize.svg"
+                    alt="desenho de um homem segurando uma logo da css, uma mulher segurando o logo do java e um homem segurando o simbolo do html">
+
+            </div>
+        </div>
+
+    </section>
+
+    <section id="intro" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>top 3 jobs</h2>
+            <p>Accusamus ducimus quisquam numquam quasi molestiae optio. Ratione excepturi tempora totam. Ratione
+                excepturi tempora totam. Ratione excepturi tempora totam. Ratione excepturi tempora totam.</p>
+            <p>Accusamus ducimus quisquam numquam quasi molestiae optio. Ratione excepturi tempora totam. Ratione
+                excepturi tempora totam.</p>
+            <p>Accusamus ducimus quisquam numquam quasi molestiae optio. Ratione excepturi tempora totam.</p>
+        </div>
+
+    </section>
+
+
+    <section id="grid-one" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">My Grid</h2>
+            <p class="grid-description">Uma breve descrição.</p>
+            <div class="grid">
+                <article>
+                    <h3>Teste 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, molestiae nam. Deleniti animi
+                        quas corrupti nobis nesciunt dolor adipisci illum repellat excepturi, voluptatem sint veritatis
+                        nam vero ratione libero voluptatum.</p>
+                </article>
+                <article>
+                    <h3>Teste 2</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, molestiae nam. Deleniti animi
+                        quas corrupti nobis nesciunt dolor adipisci illum repellat excepturi, voluptatem sint veritatis
+                        nam vero ratione libero voluptatum.</p>
+                </article>
+                <article>
+                    <h3>Teste 3</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, molestiae nam. Deleniti animi
+                        quas corrupti nobis nesciunt dolor adipisci illum repellat excepturi, voluptatem sint veritatis
+                        nam vero ratione libero voluptatum.</p>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="grid-one white-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Gallery</h2>
+            <p class="grid-description">Uma breve descrição.</p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="https://img.freepik.com/free-vector/realistic-bunch-flying-glossy-balloons-multicolored-filled-with-helium_1441-1751.jpg?w=740&t=st=1663022829~exp=1663023429~hmac=25980cbaf11b089d8044b53be50723d9ae5d62137109b5ca51d82499cca36c44"
+                        alt="random baloon image" />
+                </div>
+
+                <div class="gallery-img">
+                    <img src="https://img.freepik.com/free-vector/realistic-bunch-flying-glossy-balloons-multicolored-filled-with-helium_1441-1751.jpg?w=740&t=st=1663022829~exp=1663023429~hmac=25980cbaf11b089d8044b53be50723d9ae5d62137109b5ca51d82499cca36c44"
+                        alt="random baloon image" />
+                </div>
+                <div class="gallery-img">
+                    <img src="https://img.freepik.com/free-vector/realistic-bunch-flying-glossy-balloons-multicolored-filled-with-helium_1441-1751.jpg?w=740&t=st=1663022829~exp=1663023429~hmac=25980cbaf11b089d8044b53be50723d9ae5d62137109b5ca51d82499cca36c44"
+                        alt="random baloon image" />
+                </div>
+                <div class="gallery-img">
+                    <img src="https://img.freepik.com/free-vector/realistic-bunch-flying-glossy-balloons-multicolored-filled-with-helium_1441-1751.jpg?w=740&t=st=1663022829~exp=1663023429~hmac=25980cbaf11b089d8044b53be50723d9ae5d62137109b5ca51d82499cca36c44"
+                        alt="random baloon image" />
+                </div>
+                <div class="gallery-img">
+                    <img src="https://img.freepik.com/free-vector/realistic-bunch-flying-glossy-balloons-multicolored-filled-with-helium_1441-1751.jpg?w=740&t=st=1663022829~exp=1663023429~hmac=25980cbaf11b089d8044b53be50723d9ae5d62137109b5ca51d82499cca36c44"
+                        alt="random baloon image" />
+                </div>
+                <div class="gallery-img">
+                    <img src="https://img.freepik.com/free-vector/realistic-bunch-flying-glossy-balloons-multicolored-filled-with-helium_1441-1751.jpg?w=740&t=st=1663022829~exp=1663023429~hmac=25980cbaf11b089d8044b53be50723d9ae5d62137109b5ca51d82499cca36c44"
+                        alt="random baloon image" />
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section id="grid-two" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">My Grid</h2>
+            <p class="grid-description">Uma breve descrição.</p>
+            <div class="grid">
+                <article>
+                    <h3>Teste 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, molestiae nam. Deleniti animi
+                        quas corrupti nobis nesciunt dolor adipisci illum repellat excepturi, voluptatem sint veritatis
+                        nam vero ratione libero voluptatum.</p>
+                </article>
+                <article>
+                    <h3>Teste 2</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, molestiae nam. Deleniti animi
+                        quas corrupti nobis nesciunt dolor adipisci illum repellat excepturi, voluptatem sint veritatis
+                        nam vero ratione libero voluptatum.</p>
+                </article>
+                <article>
+                    <h3>Teste 3</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, molestiae nam. Deleniti animi
+                        quas corrupti nobis nesciunt dolor adipisci illum repellat excepturi, voluptatem sint veritatis
+                        nam vero ratione libero voluptatum.</p>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>Pricing</h2>
+            <p>Accusamus ducimus quisquam numquam quasi molestiae optio. Ratione excepturi tempora totam. Ratione
+                excepturi tempora totam. Ratione excepturi tempora totam. Ratione excepturi tempora totam.</p>
+            <p>Accusamus ducimus quisquam numquam quasi molestiae optio. Ratione excepturi tempora totam. Ratione
+                excepturi tempora totam.</p>
+            <div class="responsive-table">
+                <table>
+                    <caption>Pricing Table</caption>
+
+                    <thead>
+                        <tr>
+                            <th>Title 1</th>
+                            <th>Title 2</th>
+                            <th>Title 3</th>
+                        </tr>
+                    </thead>
+
+
+                    <tbody>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>Testando</td>
+                        </tr>
+                    </tfoot>
+
+                </table>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>January brings us firefox 85</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ducimus quisquam numquam quasi
+                    molestiae optio. Ratione excepturi tempora totam, ipsam, dolores voluptas et nisi labore magnam
+                    suscipit quaerat, quisquam eos!</p>
+            </div>
+
+            <div class="intro-img">
+                <img src="/assets/img/javascript-not-optimize.svg"
+                    alt="desenho de um homem segurando uma logo da css, uma mulher segurando o logo do java e um homem segurando o simbolo do html">
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Contact Me</legend>
+
+                    <div class="form-group">
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last Name</label>
+                        <input type="last-name" name="last-name" id="last-name" placeholder="Your Last Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="Your E-mail">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10"
+                            placeholder="Your Message"> </textarea>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <button type="submit">Send message</button>
+
+                    </div>
+                </fieldset>
+
+            </div>
+        </div>
+
+        </div>
+
+        </div>
+        </div>
+
+
+    </section>
+
+    <footer id="footer" class="footer white-bg">
+        <p>Feito por Lucas Barboza</p>
+    </footer>
+
+<a class="back-to-top" href="#">↑</a>
+
+</body>
+
+</html>
