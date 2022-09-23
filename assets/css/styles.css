@@ -14,7 +14,7 @@
 }
 
 
-.intro-img img
+.intro-img img,
 .intro-img svg {
     max-width: 100%;
     height: auto;
@@ -175,7 +175,7 @@
 }
 
 @media (max-width: 800px) {
-    .intro-content .grid {
+    .intro-content, .grid {
         grid-template-columns: 1fr;
     }
     .gallery-img {
@@ -239,6 +239,30 @@
         display: none;
     }
 
+    h1 {
+        font-size: 4rem;
+    }
+    
+    h2 {
+        font-size: 3.6rem;
+    }
+    
+    h3 {
+        font-size: 3.4rem;
+    }
+    
+    h4 {
+        font-size: 3.2rem;
+    }
+    
+    h5 {
+        font-size: 3rem;
+    }
+    
+    h6 {
+        font-size: 2.8rem;
+
 
 }
 
+}
