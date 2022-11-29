@@ -1,3 +1,3 @@
 # landing-page
-site feito através do curso de html/css administrado pelo profº Otávio Miranda.
+Minha primeira landing-page responsiva. Espero que gostem!
 hospedagem: https://taupe-salmiakki-8c2d3e.netlify.app/
